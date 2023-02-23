@@ -17,3 +17,106 @@
 .ambur{
     background-color: white;
 }
+
+/* BANNER */
+#banner{
+    padding: 0 50px;
+    background-image: url(../img/banner.jpg);
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner::before{
+    content: '';
+    background: rgba(77,77,92, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 45vh;
+    left: 0;
+}
+
+.contenido-banner{
+    position: relative;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.h1-color{
+    color: #3ACFC9;
+}
+.contenido-banner h1{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.boton-banner{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #3ACFC9;
+    padding: 20px 40px;
+    align-self: baseline;
+    transition: all 0.4s;
+    margin: auto;
+    
+}
+
+.boton-banner:hover{
+    background: #185c5a;
+}
+
+/* PERSONAS */
+#personas{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#personas img{
+    border-radius: 100%;
+}
+
+#personas div{
+    padding: 30px 30px;
+}
+
+#personas div h2{
+    color: #4b4b4a;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+#personas  div p{
+    color:#696968;
+    font-size: 18px;
+}
+
+.boton-saber-mas{
+    display: inline-block;
+    text-decoration: none;
+    color: #185c5a;
+    padding: 10px 30px;
+    border: 3px solid #3ACFC9;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+}
+
+.boton-saber-mas:hover{
+    background: #3ACFC9;
+    color: #fff;
+}
+
+
+/* RESPONSIVE */
+@media(max-width: 768px){
+    #personas{
+        flex-direction: column;
+    }
+}
