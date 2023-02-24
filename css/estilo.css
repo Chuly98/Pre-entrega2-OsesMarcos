@@ -211,7 +211,86 @@ form textarea::placeholder{
     background: #9ce0de;
 }
 
+/* CONTACTO */
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    margin-top: 90px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+
+.h2-quienes-somos{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
 /* FOOTER */
+.footer{
+    padding: 40px 0;
+    background-color: rgb(97, 95, 95);
+}
+
+.redes-sociales img{
+    margin-right: 15px;
+}
+
+.footer .h3-footer{
+    margin: 10px;
+}
+
+.footer, .redes-sociales{
+    text-align: center;
+    padding-bottom: 25px;
+    color: darkgray;
+}
+
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footer .p-footer{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
 
 
 /* RESPONSIVE */
