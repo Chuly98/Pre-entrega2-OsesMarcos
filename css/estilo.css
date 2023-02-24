@@ -239,6 +239,32 @@ form textarea::placeholder{
     padding: 35px;
 }
 
+/* LIBRERIA */
+.libreria-div{
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.libreria-div h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.libreria-div{
+    background: #96C7D3;
+}
+
+.fondo-body{
+    background-color: #92928e;
+}
+
+.tienda img{
+    margin-top: 25px;
+}
+
 /* FOOTER */
 .footer{
     padding: 40px 0;
