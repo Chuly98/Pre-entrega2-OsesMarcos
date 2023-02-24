@@ -172,7 +172,7 @@ form label{
 
 form input,
 form textarea{
-    background: #3ACFC9;
+    background: #388a87;
     border-radius: 10px;
     border: 2px solid #3d725e;
     padding: 10px 5px;
@@ -210,6 +210,9 @@ form textarea::placeholder{
 .boton-formulario .boton-saber-mas:hover{
     background: #9ce0de;
 }
+
+/* FOOTER */
+
 
 /* RESPONSIVE */
 @media(max-width: 768px){
