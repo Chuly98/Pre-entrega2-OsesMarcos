@@ -300,6 +300,32 @@ form textarea::placeholder{
     margin-top: 25px;
 }
 
+.h2-anuncios{
+    margin-top: 50px;
+}
+
+#anuncios {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.publicidad {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px;
+    text-align: center;
+}
+
+.publicidad p {
+    margin-top: 10px;
+}
+
+
 /* FOOTER */
 .footer{
     padding: 40px 0;
@@ -363,6 +389,9 @@ form textarea::placeholder{
         flex-direction: column;
     }
     .datos-formulario{
+        flex-direction: column;
+    }
+    #anuncios{
         flex-direction: column;
     }
 }
