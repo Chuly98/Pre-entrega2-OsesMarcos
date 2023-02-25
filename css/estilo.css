@@ -326,6 +326,11 @@ form textarea::placeholder{
 }
 
 
+/* COMPRA */
+#compraid{
+    text-align: center;
+}
+
 /* FOOTER */
 .footer{
     padding: 40px 0;
