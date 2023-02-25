@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap');
+
+body, .fondo-body{
+    font-family: 'Golos Text', sans-serif;
+}
+
 /* HEADER NavBar */
 .colorfondo{
     background-color: #3E3D3B;
